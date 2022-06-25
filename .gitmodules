@@ -1,0 +1,9 @@
+[submodule "externals/tao"]
+	path = externals/tao
+	url = https://github.com/samishoux/tao
+[submodule "externals/tauri"]
+	path = externals/tauri
+	url = https://github.com/samishoux/tauri
+[submodule "externals/wry"]
+	path = externals/wry
+	url = https://github.com/samishoux/wry
