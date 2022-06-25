@@ -1,3 +1,9 @@
 [submodule "externals/tauri"]
 	path = externals/tauri
 	url = https://github.com/tauri-apps/tauri.git
+[submodule "externals/tao"]
+	path = externals/tao
+	url = https://github.com/tauri-apps/tao.git
+[submodule "externals/wry"]
+	path = externals/wry
+	url = https://github.com/tauri-apps/wry.git
