@@ -2738,6 +2738,7 @@ dependencies = [
 [[package]]
 name = "tauri"
 version = "1.0.0"
+source = "git+https://github.com/samishoux/tauri#927dc850362798614bf613e431f8f223615923bc"
 dependencies = [
  "anyhow",
  "attohttpc",
@@ -2775,7 +2776,7 @@ dependencies = [
  "tauri-macros",
  "tauri-runtime",
  "tauri-runtime-wry",
- "tauri-utils 1.0.0",
+ "tauri-utils 1.0.0 (git+https://github.com/samishoux/tauri)",
  "tempfile",
  "thiserror",
  "tokio",
@@ -2804,6 +2805,7 @@ dependencies = [
 [[package]]
 name = "tauri-codegen"
 version = "1.0.0"
+source = "git+https://github.com/samishoux/tauri#927dc850362798614bf613e431f8f223615923bc"
 dependencies = [
  "base64",
  "brotli",
@@ -2817,7 +2819,7 @@ dependencies = [
  "serde",
  "serde_json",
  "sha2",
- "tauri-utils 1.0.0",
+ "tauri-utils 1.0.0 (git+https://github.com/samishoux/tauri)",
  "thiserror",
  "time",
  "uuid 1.1.2",
@@ -2827,26 +2829,29 @@ dependencies = [
 [[package]]
 name = "tauri-macros"
 version = "1.0.0"
+source = "git+https://github.com/samishoux/tauri#927dc850362798614bf613e431f8f223615923bc"
 dependencies = [
  "heck 0.4.0",
  "proc-macro2",
  "quote",
  "syn",
  "tauri-codegen",
- "tauri-utils 1.0.0",
+ "tauri-utils 1.0.0 (git+https://github.com/samishoux/tauri)",
 ]
 
 [[package]]
 name = "tauri-runtime"
 version = "0.9.0"
+source = "git+https://github.com/samishoux/tauri#927dc850362798614bf613e431f8f223615923bc"
 dependencies = [
  "gtk",
  "http",
  "http-range",
  "infer",
+ "raw-window-handle",
  "serde",
  "serde_json",
- "tauri-utils 1.0.0",
+ "tauri-utils 1.0.0 (git+https://github.com/samishoux/tauri)",
  "thiserror",
  "uuid 1.1.2",
  "webview2-com",
@@ -2856,13 +2861,15 @@ dependencies = [
 [[package]]
 name = "tauri-runtime-wry"
 version = "0.9.0"
+source = "git+https://github.com/samishoux/tauri#927dc850362798614bf613e431f8f223615923bc"
 dependencies = [
  "cocoa",
  "gtk",
  "percent-encoding",
  "rand 0.8.5",
+ "raw-window-handle",
  "tauri-runtime",
- "tauri-utils 1.0.0",
+ "tauri-utils 1.0.0 (git+https://github.com/samishoux/tauri)",
  "uuid 1.1.2",
  "webkit2gtk",
  "webview2-com",
@@ -2873,8 +2880,9 @@ dependencies = [
 [[package]]
 name = "tauri-utils"
 version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "727145cb55b8897fa9f2bcea4fad31dc39394703d037c9669b40f2d1c0c2d7f3"
 dependencies = [
- "brotli",
  "ctor",
  "glob",
  "heck 0.4.0",
@@ -2897,9 +2905,9 @@ dependencies = [
 [[package]]
 name = "tauri-utils"
 version = "1.0.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "727145cb55b8897fa9f2bcea4fad31dc39394703d037c9669b40f2d1c0c2d7f3"
+source = "git+https://github.com/samishoux/tauri#927dc850362798614bf613e431f8f223615923bc"
 dependencies = [
+ "brotli",
  "ctor",
  "glob",
  "heck 0.4.0",
@@ -3637,6 +3645,7 @@ dependencies = [
 [[package]]
 name = "wry"
 version = "0.18.3"
+source = "git+https://github.com/samishoux/wry#0ff59b44d389ba03ba42850cc7e44c0858550684"
 dependencies = [
  "block",
  "cocoa",
